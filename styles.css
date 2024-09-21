@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff4e6; /* Light peach background */
+}
+
+header {
+    background-color: #ff5733; /* Bright punchy orange */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f7f9f9; /* Off-white text */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Bright yellow hover */
+}
+
+.hero {
+    background: url('ship-background.jpg') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #ffffff; /* White text */
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #333; /* Adding a slight shadow to text */
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.hero-content button {
+    padding: 12px 25px;
+    background-color: #ff0099; /* Vibrant hot pink */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 30px; /* Rounded corners for a modern look */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-content button:hover {
+    background-color: #ff33cc; /* Lighter pink on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.booking-form {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff; /* Clean white background */
+}
+
+.booking-form h2 {
+    margin-bottom: 20px;
+    color: #ff5733; /* Bright orange for heading */
+    font-size: 36px;
+}
+
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking-form input, .booking-form button {
+    width: 300px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.booking-form input {
+    background-color: #ffebcd; /* Light tan color */
+    border: 1px solid #ff5733; /* Matching the orange theme */
+}
+
+.booking-form button {
+    background-color: #33cc33; /* Bright green */
+    color: white;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+    background-color: #29a329; /* Darker green on hover */
+}
+
+footer {
+    background-color: #ff5733;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
